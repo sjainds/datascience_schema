@@ -4,10 +4,11 @@ Goals:
 Create a detailed outline of the steps required to configure your own Jupyter Data Science Notebook Server on Amazon Web Services. The idea is that you would be able to revisit these instructions some arbitrary amount of time from now and be able to bring the server online without consulting any additional documentation.
 
 Steps:
-1)First create AWS account by signing up online at aws.amazon.com (choose free or paid version based on needs).
-2)Sign into the AWS console. Use the region closest to you geographically.
-3)Under AWS Services, we will configure EC2 (Elastic Compute Cloud) 
-4)Set up Key Pairs and Security groups (not use the default security group)
+1. First create AWS account by signing up online at aws.amazon.com (choose free or paid version based on needs).
+2. Sign into the AWS console. Use the region closest to you geographically.
+3. Under AWS Services, we will configure EC2 (Elastic Compute Cloud) 
+4. Set up Key Pairs and Security groups (not use the default security group)
+
 5)Download gitbash from https://git-scm.com/download/win
     a.Use `ssh-keygen` to generate public and private ssh keys
     b.Save in default directory with no passcode. This generates id_rsa and id_rsa.pub in the .ssh folder of home directory
